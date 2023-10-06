@@ -18,7 +18,14 @@
         <module>demo/QQMusic</module>
         <module>demo/move</module>
         <module>example</module>
+        <module>demo/demo1</module>
     </modules>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -40,6 +47,11 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.leewyatt</groupId>
+            <artifactId>rxcontrols</artifactId>
+            <version>11.0.2</version>
         </dependency>
     </dependencies>
 </project>

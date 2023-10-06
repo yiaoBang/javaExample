@@ -9,12 +9,7 @@
         <version>1.0.0</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
+
     <artifactId>QQMusic</artifactId>
 
     <properties>
@@ -22,11 +17,4 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.github.leewyatt</groupId>
-            <artifactId>rxcontrols</artifactId>
-            <version>11.0.2</version>
-        </dependency>
-    </dependencies>
 </project>

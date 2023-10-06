@@ -1,0 +1,10 @@
+/*存储第三方字体字体*/
+@font-face {
+    -fx-font-family: "Hijrnotes PERSONAL USE ONLY";
+    src: url("../font/Hijrnotes.ttf");
+}
+
+#my {
+    -fx-font-family: "Hijrnotes PERSONAL USE ONLY";
+    -fx-font-size: 35;
+}
