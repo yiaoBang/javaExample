@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="28" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="161">
+ <tileset firstgid="1" name="maptitles" tilewidth="24" tileheight="24" tilecount="5" columns="5">
+  <image source="../../../../../../../custom/Tank/src/main/resources/assets/levels/maptitles.png" width="120" height="24"/>
+ </tileset>
+ <tileset firstgid="6" name="flag" tilewidth="48" tileheight="48" tilecount="1" columns="1">
+  <image source="../../../../../../../custom/Tank/src/main/resources/assets/levels/flag.png" width="48" height="48"/>
+ </tileset>
+ <objectgroup id="2" name="对象层 1">
+  <object id="65" type="border" x="0" y="0" width="672" height="24"/>
+  <object id="66" type="border" x="648" y="24" width="24" height="648"/>
+  <object id="67" type="border" x="0" y="648" width="648" height="24"/>
+  <object id="68" type="border" x="0" y="24" width="24" height="624"/>
+  <object id="106" type="flag" gid="6" x="312" y="648" width="48" height="48"/>
+  <object id="128" type="brick" gid="1" x="288" y="648" width="24" height="24"/>
+  <object id="129" type="brick" gid="1" x="288" y="624" width="24" height="24"/>
+  <object id="130" type="brick" gid="1" x="288" y="600" width="24" height="24"/>
+  <object id="131" type="brick" gid="1" x="312" y="600" width="24" height="24"/>
+  <object id="132" type="brick" gid="1" x="336" y="600" width="24" height="24"/>
+  <object id="133" type="brick" gid="1" x="360" y="600" width="24" height="24"/>
+  <object id="134" type="brick" gid="1" x="360" y="624" width="24" height="24"/>
+  <object id="135" type="brick" gid="1" x="360" y="648" width="24" height="24"/>
+  <object id="136" type="stone" gid="4" x="600" y="168" width="24" height="24"/>
+  <object id="137" type="stone" gid="4" x="576" y="168" width="24" height="24"/>
+  <object id="138" type="stone" gid="4" x="504" y="168" width="24" height="24"/>
+  <object id="139" type="stone" gid="4" x="480" y="168" width="24" height="24"/>
+  <object id="140" type="stone" gid="4" x="288" y="168" width="24" height="24"/>
+  <object id="141" type="stone" gid="4" x="240" y="168" width="24" height="24"/>
+  <object id="142" type="stone" gid="4" x="120" y="168" width="24" height="24"/>
+  <object id="143" type="stone" gid="4" x="96" y="312" width="24" height="24"/>
+  <object id="144" type="stone" gid="4" x="456" y="408" width="24" height="24"/>
+  <object id="154" type="sea" x="288" y="264" width="24" height="24"/>
+  <object id="155" type="sea" x="312" y="264" width="24" height="24"/>
+  <object id="156" type="sea" x="336" y="264" width="24" height="24"/>
+  <object id="158" type="sea" x="288" y="288" width="24" height="24"/>
+  <object id="159" type="sea" x="312" y="288" width="24" height="24"/>
+  <object id="160" type="sea" x="336" y="288" width="24" height="24"/>
+ </objectgroup>
+</map>

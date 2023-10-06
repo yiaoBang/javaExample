@@ -5,25 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yiaobang</groupId>
-        <artifactId>javaFXExample</artifactId>
+        <artifactId>FXGL</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>FXGL</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>tank</module>
-    </modules>
+    <artifactId>tank</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.github.almasb</groupId>
-            <artifactId>fxgl</artifactId>
-        </dependency>
-    </dependencies>
+
 </project>
