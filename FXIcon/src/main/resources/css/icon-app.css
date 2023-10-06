@@ -1,0 +1,23 @@
+.button2 {
+    -fx-font-size: 20;
+}
+
+.button2 .ikonli-font-icon {
+    -fx-icon-color: red;
+    -fx-icon-size: 25px;
+    -fx-icon-code: "ci-logo-github";
+}
+
+.button3 {
+    -fx-font-size: 22;
+}
+
+.button3:selected .ikonli-font-icon {
+    -fx-icon-code: "antf-audio";
+}
+
+.button3 .ikonli-font-icon {
+    -fx-icon-color: #66ccff;
+    -fx-icon-size: 25px;
+    -fx-icon-code: "anto-audio";
+}
