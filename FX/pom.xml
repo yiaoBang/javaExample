@@ -17,6 +17,7 @@
         <module>demo/QQ</module>
         <module>demo/QQMusic</module>
         <module>demo/move</module>
+        <module>example</module>
     </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
