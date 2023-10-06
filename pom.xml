@@ -38,27 +38,27 @@
             </dependency>
             <dependency>
                 <groupId>org.openjfx</groupId>
-                <artifactId>javafx.graphics</artifactId>
+                <artifactId>javafx-graphics</artifactId>
                 <version>${javafx.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.openjfx</groupId>
-                <artifactId>javafx.fxml</artifactId>
+                <artifactId>javafx-fxml</artifactId>
                 <version>${javafx.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.openjfx</groupId>
-                <artifactId>javafx.swing</artifactId>
+                <artifactId>javafx-swing</artifactId>
                 <version>${javafx.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.openjfx</groupId>
-                <artifactId>javafx.media</artifactId>
+                <artifactId>javafx-media</artifactId>
                 <version>${javafx.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.openjfx</groupId>
-                <artifactId>javafx.web</artifactId>
+                <artifactId>javafx-web</artifactId>
                 <version>${javafx.version}</version>
             </dependency>
             <!--end-->

@@ -1,0 +1,15 @@
+.menu-item {
+    -fx-pref-width: 130;
+    -fx-pref-height: 40;
+}
+
+/*.menu-item:hover {*/
+/*    -fx-background-color: #00000015;*/
+/*}*/
+.menu-item:focused {
+    -fx-background-color: rgba(125, 125, 125, 0.3);
+}
+
+.menu-item:focused Text {
+    -fx-fill: black;
+}
