@@ -26,8 +26,8 @@ public class SnowApp extends Application {
 
     private final ArrayList<Flake> flakes = new ArrayList<>(2000);
     private final int flakeNum = 2000;
-    private final int w = 800;
-    private final int h = 800;
+    private final int w = 1920;
+    private final int h = 1080;
     private final Random random = new Random();
     Text textFps = new Text("FPS:0");
     private Pane root;

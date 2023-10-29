@@ -5,16 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yiaobang</groupId>
-    <artifactId>javaFXExample</artifactId>
+    <artifactId>javaExample</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <modules>
         <module>FXGL</module>
         <module>FX</module>
         <module>FXIcon</module>
+        <module>SerialPort</module>
+        <module>Utils</module>
+        <module>Utils/xlsx</module>
+        <module>java9-21</module>
     </modules>
-
     <properties>
+        <lombok.version>1.18.30</lombok.version>
+        <logback.version>1.4.11</logback.version>
         <javafx.version>21</javafx.version>
         <fxgl.version>17.3</fxgl.version>
         <ikonli.version>12.3.1</ikonli.version>
@@ -23,6 +28,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>io.helidon.cors</groupId>
+            <artifactId>helidon-cors</artifactId>
+            <version>4.0.0-RC1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -72,6 +92,17 @@
                 <groupId>org.kordamp.ikonli</groupId>
                 <artifactId>ikonli-javafx</artifactId>
                 <version>${ikonli.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yiaobang</groupId>
-        <artifactId>javaFXExample</artifactId>
+        <artifactId>javaExample</artifactId>
         <version>1.0.0</version>
     </parent>
 
@@ -19,6 +19,7 @@
         <module>demo/move</module>
         <module>example</module>
         <module>demo/demo1</module>
+        <module>demo/SerialPortDemo</module>
     </modules>
     <repositories>
         <repository>

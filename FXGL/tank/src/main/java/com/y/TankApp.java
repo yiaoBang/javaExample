@@ -9,6 +9,7 @@ import com.almasb.fxgl.dsl.components.OffscreenCleanComponent;
 import com.almasb.fxgl.dsl.components.ProjectileComponent;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.logging.Logger;
 import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.time.LocalTimer;
 import javafx.animation.FadeTransition;
@@ -35,8 +36,9 @@ import java.util.Map;
  * @author Y
  * @date 2023/02/16
  */
-public class TankApp extends GameApplication {
 
+public class TankApp extends GameApplication {
+    private static final Logger log = Logger.get(TankApp.class);
     /**
      * 子弹方向
      */
@@ -165,11 +167,13 @@ public class TankApp extends GameApplication {
                     case DOWN -> use = down;
                     case RIGHT -> use = right;
                 }
+
                 Rectangle rectangle = new Rectangle(20, 20);
                 rectangle.setFill(Color.GREEN);
                 //子弹实体
-                Entity bullet = FXGL.entityBuilder()
+                FXGL.entityBuilder()
                         .type(GameType.BULLET)
+                        //子弹编译量
                         .at(tankEntity.getCenter().getX() - 10, tankEntity.getCenter().getY() - 10)
                         .viewWithBBox(rectangle)
                         //子弹组件
@@ -228,12 +232,15 @@ public class TankApp extends GameApplication {
 //                .view(canvas)
 //                //bbox决定游戏实体的真实大小
 //                .bbox(BoundingShape.box(100,100))
+                //如果View和实际的实体大小一致则可以直接简写成viewWithBBox
                 .viewWithBBox(canvas)
                 .build();
+
+        //设置选择中心
         tankEntity.setRotationOrigin(new Point2D(50, 50));
         FXGL.getGameWorld().addEntities(tankEntity);
         createEnemy();
-//
+
 //        Point2D center = tankEntity.getCenter();
 //        System.out.println(center);
 //        System.out.println(tankEntity.getWidth());
@@ -305,16 +312,16 @@ public class TankApp extends GameApplication {
         text.fontProperty().unbind();
         text.setFont(Font.font(25));
         FXGL.addUINode(text);
-
     }
 
     /**
-     * 在更新
+     * 每一帧都会调用该方法
+     *
+     * @param tpf TPF
      */
     @Override
     protected void onUpdate(double tpf) {
-        //每一帧消耗的时间
-        // System.out.println(tpf);
+        log.info(STR. "当前帧消耗时长\{ tpf }" );
         isMoving = false;
         //System.out.println(FXGL.getGameWorld().getEntities().size());
 
