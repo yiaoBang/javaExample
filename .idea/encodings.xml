@@ -41,12 +41,16 @@
     <file url="file://$PROJECT_DIR$/FXIcon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JAVA/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JAVA/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MQTT/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MQTT/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SerialPort/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SerialPort/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/xlsx/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/xlsx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Windows/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Windows/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java9-21/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java9-21/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java9_pluse/src/main/java" charset="UTF-8" />

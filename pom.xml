@@ -16,6 +16,8 @@
         <module>Utils</module>
         <module>Utils/xlsx</module>
         <module>java9-21</module>
+        <module>MQTT</module>
+        <module>Windows</module>
     </modules>
     <properties>
         <lombok.version>1.18.30</lombok.version>
